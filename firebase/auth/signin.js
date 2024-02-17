@@ -10,7 +10,9 @@ export default async function signIn(email, password) {
         result = await signInWithEmailAndPassword(auth, email, password);
     } catch (e) {
         error = e;
+        console.log(error)
     }
 
+    console.log(result)
     return { result, error };
 }
