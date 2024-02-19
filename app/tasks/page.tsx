@@ -61,7 +61,7 @@ export default function Home() {
         ))}
          
         <div className="flex flex-col">
-          <input value={todo} onChange={handleTodoChange} placeholder="Enter your task" className="border-none my-2 p-1 px-2 rounded"/>
+          <input value={todo} onChange={handleTodoChange} placeholder="Enter your task" className="border-none my-2 p-1 px-2 rounded text-black"/>
           <div onClick={handleAddTodo} className="mx-auto px-2 my-1 text-gray-100 rounded-lg py-1 border border-zinc-950" >Add To Do</div>
         </div>
       </div>

@@ -30,7 +30,7 @@ const Page: React.FC<PageProps> = () => {
     return (<div className="wrapper">
         <div className="form-wrapper h-screen grid grid-cols-1 sm:grid-cols-2 bg-[#f5f4f4] justify-center items-center">
             <div className="h-full w-full bg-center mt-16 sm:mt-0 mx-auto flex bg-[url('../assets/signin.svg')] bg-no-repeat justify-center items-center sm:h-3/4 sm:w-3/4"></div>
-            <div className="w-3/4 sm:w-3/5 h-3/5 m-2 flex flex-col border-none sm:border-2 mx-auto sm:border-black rounded-xl justify-center items-center">
+            <div className="text-black w-3/4 sm:w-3/5 h-3/5 m-2 flex flex-col border-none sm:border-2 mx-auto sm:border-black rounded-xl justify-center items-center">
                 <h1 className="text-2xl mb-4">Sign In</h1>
                 <form onSubmit={handleForm} className="form items-center">
                     <label htmlFor="email">
